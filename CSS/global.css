@@ -1,0 +1,19 @@
+/* colors */
+
+/*
+60% - #72AB54 - Primary
+30% - #AB5472 - Secondary
+10% - #5472AB - Accent
+ black text
+*/
+
+:root {
+
+/* var(--dominantColor) !important; */
+--dominantColor:#72AB54;
+
+--secondaryColor:#AB5472;
+
+--accentColor:#5472AB;
+
+}
