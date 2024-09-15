@@ -2,8 +2,8 @@
 
 /*
 60% - #72AB54 - Primary
-30% - #AB5472 - Secondary
-10% - #5472AB - Accent
+30% - #BA5B7B - Secondary
+10% - #688DD4 - Accent
  black text
 */
 
@@ -12,8 +12,8 @@
 /* var(--dominantColor) !important; */
 --dominantColor:#72AB54;
 
---secondaryColor:#AB5472;
+--secondaryColor:#BA5B7B;
 
---accentColor:#5472AB;
+--accentColor:#688DD4;
 
 }
