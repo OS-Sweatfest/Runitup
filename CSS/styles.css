@@ -1,16 +1,7 @@
 @import 'global.css';
 @import 'main.css';
 
-.Test-Font{
-
-    color: #BA5B7B;
-
-
-}
-
-.test-font-2{
-
-    color: #72AB54;
-
-
+.fa-row 
+{
+    background-color: orange;
 }
