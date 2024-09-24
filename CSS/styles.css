@@ -3,5 +3,10 @@
 
 .fa-row 
 {
-    background-color: orange;
+    background-color: var(--dominantColor) !important;
+    padding : 35px;
+}
+.fa-row-icon
+{
+    font-size : 60px;
 }
