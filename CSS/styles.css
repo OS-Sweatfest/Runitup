@@ -7,6 +7,10 @@
 {
     background-color: var(--dominantColor) !important;
     padding : 35px;
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 300;
+    font-style: italic;
+
 }
 .fa-row-icon
 {
@@ -31,5 +35,5 @@
     margin-bottom: 20px;
     font-family: "Playfair Display", serif;
     margin-left: auto;
-    margin-right:  auto;
+    margin-right: auto;
 }
