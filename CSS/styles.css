@@ -37,3 +37,44 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Table */
+.spec-sheet{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .spec-sheet th, spec-sheet td{
+    padding: 20px;
+  }
+  
+  .spec-sheet thead tr{
+    border-bottom: 1px solid #dddddd;
+    background-color: var(--dominantColor);
+  }
+  
+  .spec-sheet tbody tr{
+    border-bottom: 1px solid #dddddd;
+    background-color: #ffffff;
+  }
+  
+  .spec-sheet tbody tr:nth-of-type(even){
+    background-color:#f3f3f3;
+  }
+  
+  .spec-sheet tbody tr:nth-of-type(odd){
+    background-color:#ffffff;
+  }
+  
+  .spec-sheet tbody tr:last-of-type{
+    border-bottom: 3px solid var(--secondaryColor);
+  }
+  
+  .spec-sheet tbody tr td:first-of-type{
+    background-color: #ffffff;
+    text-align: right;
+    border-right: 1px solid #dddddd;
+  }
