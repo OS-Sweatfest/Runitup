@@ -78,3 +78,15 @@
     text-align: right;
     border-right: 1px solid #dddddd;
   }
+
+  .schedule-section{
+    background-color: #f8f2fa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  @media screen and (mac-width:768px) {
+    .first-paragraph-img{
+      width: 100%;
+    } 
+  }
