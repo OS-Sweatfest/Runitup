@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration-thickness: 3px; 
 }
 
-.footer-row{
+.footer-row, .footer-section{
     background-color: var(--dominantColor) !important;
     padding-top: 35px;
     padding-bottom: 35px;
