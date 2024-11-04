@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--dominantColor) !important;
     padding-top: 35px;
     padding-bottom: 35px;
-    width:auto;
+    width: auto;
 }
 
 .footer-row a{
