@@ -24,6 +24,32 @@
 
         <header>
 
+            <!-- Begin offcanvas -->
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                Link with href
+              </a>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                Button with data-bs-target
+              </button>
+              
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                 
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                 </div>
+                </div>
+              </div>
+            <!-- End offcanvas-->
+
             <!-- Navbar starts Now-->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
@@ -56,10 +82,7 @@
                             </li>
                             
                         </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                        
                     </div>
                 </div>
             </nav>
@@ -245,8 +268,7 @@
     <!-- List End-->
     <!-- Table over -->
 
-        
-
+        <!--footer begin-->
         <footer> 
             <div class="container-fluid text-center footer-section">
                 <div class="footer-row">
@@ -262,6 +284,8 @@
 
 
         </footer>
+        <!--footer end-->
+
 
         <!-- Need Java Below-->
         <div>
