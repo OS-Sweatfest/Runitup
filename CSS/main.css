@@ -41,3 +41,21 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.top-logo {
+    height: auto;
+    font-weight: bolder;
+    color: var(--dominantColor) !important;
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+}
+
+.material-symbol-outlined, ,.material-symbol-outlined a {
+    font-size: 60px;
+    color: var(--dominantColor) !important;
+    position: relative;
+    top: 0px;
+    text-decoration: none;
+}
