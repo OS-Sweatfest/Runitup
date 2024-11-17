@@ -324,13 +324,16 @@
         <input type="file" name="upload" accept=".jpg" class="form-control"/>
       </div> 
 
-      <div class="col-12">
-        <input type="checkbox" id="terms-and-conditions" name="terms" value="Yes" required/>
+      <div class="col-12 form-check form-switch">
+        <input type="checkbox" id="terms-and-conditions" name="terms" value="Yes" class="form-check-input" required/>
         <label>I accept the term and conditions</label>
       </div>
 
+        <div class="col-12">
+        <input type="submit" name="commit" id="submit" class="btn btn-primary" />
+        </div>
 
-   </div>
+    </div>
   </form>
 </div>
 
