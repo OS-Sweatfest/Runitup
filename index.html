@@ -284,23 +284,52 @@
     <!-- List End-->
 
 <!-- Begin Contact Form-->
-<div class="container">
+<div class="container webform">
   <form data-netlify="true" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
    <div class="row">
     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
       <label for="first-name">Moniker</label>
-      <input type="text" id="first-name" class="first-name form-control" required value="" placeholder="Title"/>
+      <input type="text" id="first-name" class="first-name form-control" required/>
     </div>
 
     <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-        <label for="first-name">Moniker</label>
-        <input type="text" id="first-name" class="first-name form-control" required value="" placeholder="Title"/>
+        <label for="Last-name">Maiden</label>
+        <input type="text" id="first-name" class="first-name form-control" required/>
       </div>
 
       <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
-        <label for="first-name">Moniker</label>
-        <input type="text" id="first-name" class="first-name form-control" required value="" placeholder="Title"/>
+        <label for="email">Contact</label>
+        <input type="email" id="email" class="email form-control" required value=""/>
       </div>
+
+      <div>
+        <label for="tel">Cell</label>
+        <input type="tel" id="tel" class="tel form-control" required value=""/>
+      </div>
+
+      <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <label> Choose wisely</label><br />
+         <select name="dropoptions" id="dropoptions" required class="form-select">
+           <option value="">Make a Decision</option>
+           <option value="do-1">Delegate</option>
+           <option value="do-2">Demonstrate</option>
+           <option value="do-3">Dominate</option>
+           <option value="CUSTOM">CUSTOM</option>
+        </select>
+        <input type="text" id="custom" class="form-control" disabled/>
+       </div>
+
+       <div class="col-12 col-xxs-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <lable="upload">Upload</label>
+        <input type="file" name="upload" accept=".jpg" class="form-control"/>
+      </div> 
+
+      <div class="col-12">
+        <input type="checkbox" id="terms-and-conditions" name="terms" value="Yes" required/>
+        <label>I accept the term and conditions</label>
+      </div>
+
+
    </div>
   </form>
 </div>
