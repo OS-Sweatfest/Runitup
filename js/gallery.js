@@ -3,7 +3,6 @@ $( document ).ready(function() {
    // console.log( "ready!" );
 
    $("#galleryIMED").nanogallery2({
-    ...
     thumbnailHeight: "auto",
     thumbnailWidth: "450",
     thumbnailBorderVertical: "0",
