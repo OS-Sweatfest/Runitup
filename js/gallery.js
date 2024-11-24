@@ -4,14 +4,15 @@ $( document ).ready(function() {
 
    $("#galleryIMED").nanogallery2({
     ...
-    thumbnailHeight:  "auto",
-    thumbnailWidth:   "450",
+    thumbnailHeight: "auto",
+    thumbnailWidth: "450",
     thumbnailBorderVertical: "0",
+    thumbnailBorderHorizontal: "0",
     thumbnailLabel: {
         position: "overImageOnBottom",
         display: false
     },
-    thumbnailHoverEffect2: "imageScaleIn80|imageSepiaOff|LabelApper75",
+    thumbnailHoverEffect2: "imageScaleIn80|imageSepiaOff|LabelAppear75",
     thumbnailGutterWidth: 20,
     thumbnailGutterHeight: 20,
     thumbnailAlignment: "center",
